@@ -63,3 +63,8 @@ This sample presented in this project is an Azure Function hosted on a consumpti
 - Publish the project using the publishing file of your previously deployed Azure Function. (https://docs.microsoft.com/en-us/visualstudio/deployment/tutorial-import-publish-settings-azure?view=vs-2022)
 - Get the Functions URL for the HTTP Service on the Azure Portal: Functions -> DepartmentsHttpTrigger -> Get FunctionURL
 - Go to EasyLife 365 Cockpit and configure your Dropdown Field. Under Options, select "Retrieve options from a web service" and paste the Function URL.
+
+## Contribution guidelines
+We appreciate that you're interested in helping with moving the project forward. Feel free to create issues or submit a PR. We will come back to you shortly.
+
+Sharing is caring!
