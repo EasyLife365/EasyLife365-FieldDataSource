@@ -1,4 +1,4 @@
-# EasyLife365-CustomDropdownService
+# EasyLife365 - FieldDataSource
 
 This example shows you how to develop a custom data source field for EasyLife 365 using an Azure Function and C#.
 
