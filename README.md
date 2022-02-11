@@ -46,15 +46,15 @@ The web service receives an HTTP GET request. We also pass the current language 
 
 ## About this sample
 
-This sample presented in this project is an Azure Function hosted on a consumption plan. You can provide the necessary resources using the bicep file under /\_deployment.
+This sample presented in this project is an Azure Function hosted on a consumption plan. You can provide the necessary resources using the bicep file under /_deployment.
 
 - Install the Azure CLI on your machine
 - Identify the subscription you want to deploy.
-- Change the parameters under \_deployment/provision.ps1
+- Change the parameters under _deployment/provision.ps1
 - Run the code
 
 ```
-  cd \_/deployment
+  cd _/deployment
   az login
   az account set --subscription "My Subscription ID"
   ./provision.ps1
