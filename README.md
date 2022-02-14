@@ -42,7 +42,10 @@ The web service receives an HTTP GET request. We also pass the current language 
 
 - Keys must only be alphanumeric and do not contain spaces
 - CORS must be enabled for https://\*.easylife365.cloud
-- The service must be hosted on _.azurewebsites.net or _.easylife365.cloud due to security restrictions
+- support ticket must be opened on https://support.easylife365.cloud and must contain the following information:
+  - company name
+  - endpoint url
+- a domain entry will be created on  *_.easylife365.cloud* and point to the service endpoint
 
 ## About this sample
 
