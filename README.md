@@ -42,10 +42,11 @@ The web service receives an HTTP GET request. We also pass the current language 
 
 - Keys must only be alphanumeric and do not contain spaces
 - CORS must be enabled for https://\*.easylife365.cloud
-- support ticket must be opened on https://support.easylife365.cloud and must contain the following information:
+- the web service must use an *.ext.easylife365.cloud domain for security reasons. You can create a support ticket support@easylife365.cloud to request a CNAME to your web service. Please specify following information in the ticket:
   - company name
-  - endpoint url
-- a domain entry will be created on  *_.easylife365.cloud* and point to the service endpoint
+  - your endpoint url (e.g. myservice.azurewebsites.net)
+
+We will create a DNS entry under *.ext.easylife365.cloud pointing to your service. Afterwards, you can finalize the configuration on your webservice. Azure allows you to configure the DNS entry and request a free system managed certificate.
 
 ## About this sample
 
