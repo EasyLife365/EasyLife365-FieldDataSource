@@ -33,11 +33,6 @@ The web service receives an HTTP GET request. We also pass the current language 
 ]
 ```
 
-### Recommendations
-
-- Web service should respond within 300ms to have a good user experience
-- Enable caching for your web service
-
 ### Requirements
 
 - Keys must only be alphanumeric and do not contain spaces
@@ -47,6 +42,11 @@ The web service receives an HTTP GET request. We also pass the current language 
   - your endpoint url (e.g. myservice.azurewebsites.net)
 
 We will create a DNS entry under *.ext.easylife365.cloud pointing to your service. Afterwards, you can finalize the configuration on your webservice. Azure allows you to configure the DNS entry and request a free system managed certificate.
+
+### Recommendations
+
+- Web service should respond within 300ms to have a good user experience
+- Enable caching for your web service
 
 ## About this sample
 
