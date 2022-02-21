@@ -42,7 +42,7 @@ The web service receives an HTTP GET request. We also pass the current language 
   - your endpoint url (e.g. myservice.azurewebsites.net)
 
 We will create a DNS entry under *.ext.easylife365.cloud pointing to your service. Afterwards, you can finalize the configuration on your webservice. Azure allows you to configure the DNS entry and request a free system managed certificate.
-
+Once you get a confirmation mail for the domain entry, you will need to configure your app in a proper way. [Here](azure-domain-registration.md)'s an example how you can do it in the azure environment.
 ### Recommendations
 
 - Web service should respond within 300ms to have a good user experience
@@ -67,6 +67,7 @@ This sample presented in this project is an Azure Function hosted on a consumpti
 - Publish the project using the publishing file of your previously deployed Azure Function. (https://docs.microsoft.com/en-us/visualstudio/deployment/tutorial-import-publish-settings-azure?view=vs-2022)
 - Get the Functions URL for the HTTP Service on the Azure Portal: Functions -> DepartmentsHttpTrigger -> Get FunctionURL
 - Go to EasyLife 365 Cockpit and configure your Dropdown Field. Under Options, select "Retrieve options from a web service" and paste the Function URL.
+
 
 ## Contribution guidelines
 We appreciate that you're interested in helping with moving the project forward. Feel free to create issues or submit a PR. We will come back to you shortly.
