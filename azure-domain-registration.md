@@ -1,10 +1,10 @@
-## Register custom domain for azure functions / web apps
+# Register custom domain for azure functions / web apps
 - go to your azure function / web app
 - go to **Custom domains**
-### Add custom domain
+## Add custom domain
 - validate the domain e.g. xi-rocks.ext.easylife365.cloud
 - save custom domain
-### Register certificate
+## Register certificate
 - in function go to **TLS/SSL settings**
 - go to **Private Key Certificates** and click on **Create App Service Managed Certificate**
 - Choose your custom domain entry and create a Certificate for it
